@@ -1,0 +1,76 @@
+2022-02-18 16:28:43,237 - root-INFO hello
+2022-02-18 16:28:43,255 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:28:43,426 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 48
+2022-02-18 16:28:43,426 - root-INFO case_name: test_user_login_UserNameError
+2022-02-18 16:28:43,426 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:28:43,426 - root-INFO data: {"name": "q", "password": "1"}
+2022-02-18 16:28:43,427 - root-INFO ex_result: 0
+2022-02-18 16:28:43,427 - root-INFO ac_result: False
+2022-02-18 16:28:43,427 - root-INFO case_name: test_user_login_UserNameError
+2022-02-18 16:28:43,427 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:28:43,427 - root-INFO data: {"name": "q", "password": "1"}
+2022-02-18 16:28:43,427 - root-INFO ex_result: 用户名不存在
+2022-02-18 16:28:43,427 - root-INFO ac_result: 用户名不存在
+2022-02-18 16:28:43,429 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:28:43,590 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 42
+2022-02-18 16:28:43,592 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:28:43,798 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 6853
+2022-02-18 16:28:43,799 - root-INFO case_name: test_user_login_normal
+2022-02-18 16:28:43,799 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:28:43,799 - root-INFO data: {"name": "1", "password": "1"}
+2022-02-18 16:28:43,799 - root-INFO ex_result: 1
+2022-02-18 16:28:43,799 - root-INFO ac_result: True
+2022-02-18 16:29:36,545 - root-INFO hello
+2022-02-18 16:29:36,563 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:29:36,727 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 48
+2022-02-18 16:29:36,727 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-18 16:29:36,727 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:29:36,727 - root-INFO 测试数据: {"name": "q", "password": "1"}
+2022-02-18 16:29:36,727 - root-INFO 期望结果: 0
+2022-02-18 16:29:36,727 - root-INFO 实际结果: False
+2022-02-18 16:29:36,727 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-18 16:29:36,727 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:29:36,727 - root-INFO 测试数据: {"name": "q", "password": "1"}
+2022-02-18 16:29:36,727 - root-INFO 期望结果: 用户名不存在
+2022-02-18 16:29:36,727 - root-INFO 实际结果: 用户名不存在
+2022-02-18 16:29:36,729 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:29:37,964 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 42
+2022-02-18 16:29:37,966 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:29:38,178 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 6853
+2022-02-18 16:29:38,178 - root-INFO 测试案例: test_user_login_normal
+2022-02-18 16:29:38,178 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:29:38,178 - root-INFO 测试数据: {"name": "1", "password": "1"}
+2022-02-18 16:29:38,178 - root-INFO 期望结果: 1
+2022-02-18 16:29:38,178 - root-INFO 实际结果: True
+2022-02-18 16:31:49,177 - root-INFO hello
+2022-02-18 16:31:49,195 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:31:49,353 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 48
+2022-02-18 16:31:49,353 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-18 16:31:49,354 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:31:49,354 - root-INFO 测试数据: {"name": "q", "password": "1"}
+2022-02-18 16:31:49,354 - root-INFO 期望结果: 0
+2022-02-18 16:31:49,354 - root-INFO 实际结果: False
+2022-02-18 16:31:49,354 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-18 16:31:49,354 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:31:49,354 - root-INFO 测试数据: {"name": "q", "password": "1"}
+2022-02-18 16:31:49,354 - root-INFO 期望结果: 用户名不存在
+2022-02-18 16:31:49,354 - root-INFO 实际结果: 用户名不存在
+2022-02-18 16:31:49,355 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:31:49,521 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 42
+2022-02-18 16:31:49,521 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-18 16:31:49,521 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:31:49,521 - root-INFO 测试数据: {"name": "1", "password": "w"}
+2022-02-18 16:31:49,521 - root-INFO 期望结果: 0
+2022-02-18 16:31:49,522 - root-INFO 实际结果: False
+2022-02-18 16:31:49,522 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-18 16:31:49,522 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:31:49,522 - root-INFO 测试数据: {"name": "1", "password": "w"}
+2022-02-18 16:31:49,522 - root-INFO 期望结果: 密码错误
+2022-02-18 16:31:49,522 - root-INFO 实际结果: 密码错误
+2022-02-18 16:31:49,523 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-18 16:31:49,724 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 6853
+2022-02-18 16:31:49,725 - root-INFO 测试案例: test_user_login_normal
+2022-02-18 16:31:49,725 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-18 16:31:49,725 - root-INFO 测试数据: {"name": "1", "password": "1"}
+2022-02-18 16:31:49,725 - root-INFO 期望结果: 1
+2022-02-18 16:31:49,725 - root-INFO 实际结果: True

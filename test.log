@@ -1,0 +1,32 @@
+2022-02-21 14:06:14,110 - root-INFO hello
+2022-02-21 14:06:14,408 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-21 14:06:14,574 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 48
+2022-02-21 14:06:14,575 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-21 14:06:14,575 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-21 14:06:14,575 - root-INFO 测试数据: {"name": "q", "password": "1"}
+2022-02-21 14:06:14,575 - root-INFO 期望结果: 0
+2022-02-21 14:06:14,575 - root-INFO 实际结果: False
+2022-02-21 14:06:14,575 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-21 14:06:14,575 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-21 14:06:14,576 - root-INFO 测试数据: {"name": "q", "password": "1"}
+2022-02-21 14:06:14,576 - root-INFO 期望结果: 用户名不存在
+2022-02-21 14:06:14,576 - root-INFO 实际结果: 用户名不存在
+2022-02-21 14:06:14,577 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-21 14:06:14,740 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 42
+2022-02-21 14:06:14,740 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-21 14:06:14,740 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-21 14:06:14,740 - root-INFO 测试数据: {"name": "1", "password": "w"}
+2022-02-21 14:06:14,740 - root-INFO 期望结果: 0
+2022-02-21 14:06:14,741 - root-INFO 实际结果: False
+2022-02-21 14:06:14,741 - root-INFO 测试案例: test_user_login_UserNameError
+2022-02-21 14:06:14,741 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-21 14:06:14,741 - root-INFO 测试数据: {"name": "1", "password": "w"}
+2022-02-21 14:06:14,741 - root-INFO 期望结果: 密码错误
+2022-02-21 14:06:14,741 - root-INFO 实际结果: 密码错误
+2022-02-21 14:06:14,742 - urllib3.connectionpool-DEBUG Starting new HTTP connection (1): 10.10.1.173:8100
+2022-02-21 14:06:14,963 - urllib3.connectionpool-DEBUG http://10.10.1.173:8100 "POST /api/user/login HTTP/1.1" 200 6853
+2022-02-21 14:06:14,964 - root-INFO 测试案例: test_user_login_normal
+2022-02-21 14:06:14,964 - root-INFO url: http://10.10.1.173:8100/api/user/login
+2022-02-21 14:06:14,964 - root-INFO 测试数据: {"name": "1", "password": "1"}
+2022-02-21 14:06:14,964 - root-INFO 期望结果: 1
+2022-02-21 14:06:14,964 - root-INFO 实际结果: True
